@@ -23,4 +23,5 @@ if __name__ == '__main__':
         c = bomb[1]
         mine_field[r][c] = -1
         update_sides(r, c)
-    print(mine_field)
+    for d in mine_field:
+        print(d)
